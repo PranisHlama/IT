@@ -1,0 +1,18 @@
+baseURL:  "/"
+languageCode: "en-us"
+title : "My hugo site"
+theme: "compose"
+
+# Navigation links
+menu:
+  main:
+    - name: Home
+      url: /home
+    - name: Services
+      url: /services/
+    - name: Careers
+      url: /careers/
+
+# Additional configuration options
+languageCode: en-US
+paginate: 10
