@@ -12,7 +12,41 @@ menu:
       url: /services/
     - name: Careers
       url: /careers/
-
+    - name: Portfolio
+      url: /portfolio/
+    - name: Contact Us
+      url: /contact/
 # Additional configuration options
 languageCode: en-US
 paginate: 10
+
+# Content configuration
+contentDir: content
+
+# Markdown configuration
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Define the content types for your site
+# You can add additional content types as needed
+# for different types of content (e.g., blog posts, pages, etc.)
+# Here we're defining a content type for the Markdown files
+# inside the "home" directory
+contentTypes:
+  home:
+    name: "Home"
+    description: "Content for the home page"
+    dir: "Home"
+    markup:
+      goldmark:
+        renderer:
+          unsafe: true
+
+
+params:
+  breadcrumbs:
+    separator: ">"
+    enableHome: true
+    name: "You are here:"
