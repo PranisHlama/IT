@@ -2,6 +2,7 @@
 title: "Government Automation"
 date: 2023-02-25T16:52:55+05:45
 draft: true
+url: Services/content3/
 ---
 
 ## Workload Automation is Transforming Government

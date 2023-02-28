@@ -2,6 +2,7 @@
 title: "Infrastructure Development"
 date: 2023-02-25T16:46:40+05:45
 draft: true
+url: Services/content2/
 ---
 ## IT infrastructure deployment
 IT infrastructure deployment typically involves defining the sequence of operations or steps, often referred to as a deployment plan, that must be carried to deliver changes into a target system environment. The individual operations within a deployment plan can be executed manually or automatically. Deployment plans are usually well defined and approved prior to the deployment date. In situations where there is a high potential risk of failure in the target system environment, deployment plans may rehearsed to ensure there are no issues during actual deployment. Structured repeatable deployments are also prime candidates for automation which drives quality and efficiency. 

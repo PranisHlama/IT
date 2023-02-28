@@ -2,7 +2,7 @@
 title: "Agile & TQM"
 date: 2023-02-25T16:31:35+05:45
 draft: false
-url: \home
+url: Home/second/
 ---
 
 ## Agile & TQM

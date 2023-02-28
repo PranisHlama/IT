@@ -2,6 +2,7 @@
 title: "About"
 date: 2023-02-27T20:31:08+05:45
 draft: true
+url: Contact/contact/
 ---
 
 # Contact Us

@@ -4,15 +4,29 @@ title : "My hugo site"
 theme: "hugo-profile"
 paginate: 10
 # Navigation links
+params:
+  logo: /img/logo.jpeg
+
+
 menu:
   main:
-    - name: Home
-      url: /home
-    - name: Services
+    - identifier: home
+      name: Home
+      url: /home/
+      weight: 1
+    - identifier: services
+      name: Services
       url: /services/
-    - name: Careers
+      weight: 2
+    - identifier: careers
+      name: Careers
       url: /careers/
-    - name: Portfolio
+      weight: 3
+    - identifier: portfolio
+      name: Portfolio
       url: /portfolio/
-    - name: Contact Us
+      weight: 4
+    - identifier: contact
+      name: Contact Us
       url: /contact/
+      weight: 5
