@@ -2,7 +2,7 @@ baseURL:  "/"
 languageCode: "en-us"
 title : "My hugo site"
 theme: "compose"
-
+paginate: 10
 # Navigation links
 menu:
   main:
@@ -16,9 +16,7 @@ menu:
       url: /portfolio/
     - name: Contact Us
       url: /contact/
-# Additional configuration options
-languageCode: en-US
-paginate: 10
+
 
 # Content configuration
 contentDir: content
@@ -35,7 +33,7 @@ markup:
 # Here we're defining a content type for the Markdown files
 # inside the "home" directory
 contentTypes:
-  home:
+  Home:
     name: "Home"
     description: "Content for the home page"
     dir: "Home"
@@ -43,10 +41,3 @@ contentTypes:
       goldmark:
         renderer:
           unsafe: true
-
-
-params:
-  breadcrumbs:
-    separator: ">"
-    enableHome: true
-    name: "You are here:"

@@ -2,6 +2,7 @@
 title: "Agile & TQM"
 date: 2023-02-25T16:31:35+05:45
 draft: false
+url: \home
 ---
 
 ## Agile & TQM
@@ -11,7 +12,7 @@ Total quality management has a lot of influence on how quality management is mad
 Agile methods are used to designate a set of management and/or project management practices and techniques. It aims to support collective reflection and action instead of the unilateral hierarchical decision, permanent adaptability and reactivity rather than the systematic implementation of pre-existing process models. Creativity and inventiveness are considered superior to the application of fixed procedures. The objective of this type of methodology is divided into two key words: speed and efficiency.
 - The contribution of individuals,
 - The practical and operational elements prevail over set processes,
-- Collaboration prevails over contractual relationships,
+- Collaboration prevails over contractual relationships.
 ### Agile principles:
 * Customer satisfaction is a top priority,
 * Any change and improvement is treated seriously,
