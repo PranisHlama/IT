@@ -1,7 +1,7 @@
 baseURL:  "/"
 languageCode: "en-us"
 title : "My hugo site"
-theme: "compose"
+theme: "hugo-profile"
 paginate: 10
 # Navigation links
 menu:
@@ -16,28 +16,3 @@ menu:
       url: /portfolio/
     - name: Contact Us
       url: /contact/
-
-
-# Content configuration
-contentDir: content
-
-# Markdown configuration
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-# Define the content types for your site
-# You can add additional content types as needed
-# for different types of content (e.g., blog posts, pages, etc.)
-# Here we're defining a content type for the Markdown files
-# inside the "home" directory
-contentTypes:
-  Home:
-    name: "Home"
-    description: "Content for the home page"
-    dir: "Home"
-    markup:
-      goldmark:
-        renderer:
-          unsafe: true
